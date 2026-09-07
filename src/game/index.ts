@@ -9,6 +9,9 @@ export { HuntSquad, HuntSquadManager, type FormationType } from './HuntSquad';
 export { CommanderClass, CommanderInstance, CommanderCollection } from './Commander';
 export { Troop, ArmyComposition, TROOP_DATABASE, type TroopClass, type TroopTier } from './Troops';
 export { CombatEngine, type CombatParticipant, type CombatResult, type CombatRound } from './CombatEngine';
+export { March, MarchManager, type MarchType, type MarchStatus } from './March';
+export { Rally, RallyManager, type RallyMember, type RallyConfig } from './Rally';
+export { DefenseManager, ServerDefense, type DefenseArmy, type IncomingAttack } from './Defense';
 
 export type { BuildingConfig } from './Building';
 export type { AlliancePermission, OfficerRole } from './Alliance';
@@ -19,3 +22,4 @@ export type { SquadMember, SquadOrder, SquadCombatLog, CombatEvent } from './Hun
 export type { CommanderSkill, CommanderAbility, CommanderProgression } from './Commander';
 export type { TroopDefinition, TroopStats } from './Troops';
 export type { CombatAction, DamageRecord } from './CombatEngine';
+export type { MarchConfig } from './March';
