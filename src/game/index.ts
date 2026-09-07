@@ -12,6 +12,8 @@ export { CombatEngine, type CombatParticipant, type CombatResult, type CombatRou
 export { March, MarchManager, type MarchType, type MarchStatus } from './March';
 export { Rally, RallyManager, type RallyMember, type RallyConfig } from './Rally';
 export { DefenseManager, ServerDefense, type DefenseArmy, type IncomingAttack } from './Defense';
+export { GameServer, type SvSPhase, type SvSResult, type DominionPoints, type ServerRanking } from './GameServer';
+export { CrossServerSystem, Invasion, ServerUnity, type InvasionPhase, type InvasionResult, type InvasionCorridor } from './CrossServer';
 
 export type { BuildingConfig } from './Building';
 export type { AlliancePermission, OfficerRole } from './Alliance';
@@ -23,3 +25,5 @@ export type { CommanderSkill, CommanderAbility, CommanderProgression } from './C
 export type { TroopDefinition, TroopStats } from './Troops';
 export type { CombatAction, DamageRecord } from './CombatEngine';
 export type { MarchConfig } from './March';
+export type { ServerPlayer, SvSReward } from './GameServer';
+export type { CrossServerBattle, InvasionReward } from './CrossServer';
