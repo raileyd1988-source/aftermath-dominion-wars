@@ -7,6 +7,9 @@ export { AllianceStore, DominionVault } from './AllianceStore';
 export { AllianceTech } from './AllianceTech';
 export { HuntSquad, HuntSquadManager, type FormationType } from './HuntSquad';
 export { CommanderClass, CommanderInstance, CommanderCollection } from './Commander';
+export { Troop, ArmyComposition, TROOP_DATABASE, type TroopClass, type TroopTier } from './Troops';
+export { CombatEngine, type CombatParticipant, type CombatResult, type CombatRound } from './CombatEngine';
+
 export type { BuildingConfig } from './Building';
 export type { AlliancePermission, OfficerRole } from './Alliance';
 export type { RelocationRequest, HiveZone } from './AllianceHall';
@@ -14,3 +17,5 @@ export type { StoreItem, StorePurchase } from './AllianceStore';
 export type { TechResearch, ResearchProgress } from './AllianceTech';
 export type { SquadMember, SquadOrder, SquadCombatLog, CombatEvent } from './HuntSquad';
 export type { CommanderSkill, CommanderAbility, CommanderProgression } from './Commander';
+export type { TroopDefinition, TroopStats } from './Troops';
+export type { CombatAction, DamageRecord } from './CombatEngine';
